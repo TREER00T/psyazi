@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_background_login"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    tools:context=".register.signIn"
+    tools:targetApi="jelly_bean_mr1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/isans"
+        android:text="@string/signin_text"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/psyazi"
+        tools:ignore="ContentDescription" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/username_signUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="18dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%*"
+                    android:fontFamily="@font/isans"
+                    android:inputType="text"
+                    android:maxLength="30"
+                    android:textColor="#000000"
+                    android:textColorHint="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInput_password"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                app:counterEnabled="true"
+                app:counterMaxLength="30"
+                app:errorEnabled="true"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password_signUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%*"
+                    android:fontFamily="@font/isans"
+                    android:inputType="textPassword"
+                    android:maxLength="30"
+                    android:textColor="#000000"
+                    android:textColorHint="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold">
+
+                </com.google.android.material.textfield.TextInputEditText>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/number">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneNumber_signUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="18dp"
+                    android:fontFamily="@font/isans"
+                    android:inputType="time"
+                    android:maxLength="11"
+                    android:textColor="#000000"
+                    android:textColorHint="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/aliasName">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/aliasName_signUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="18dp"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZضصثقفغعهخحجچپشسیبلاتنمکگوئدذرزطظآژ "
+                    android:fontFamily="@font/isans"
+                    android:inputType="textPersonName"
+                    android:maxLength="30"
+                    android:textColor="#000000"
+                    android:textColorHint="@color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold">
+
+                </com.google.android.material.textfield.TextInputEditText>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/signUp_btn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginLeft="140dp"
+                android:background="@drawable/shape_login_button"
+                android:enabled="false"
+                android:fontFamily="@font/isans"
+                android:text="@string/signin"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
