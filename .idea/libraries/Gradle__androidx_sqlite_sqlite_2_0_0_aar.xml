@@ -4,12 +4,13 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0ebabdd86e6a65ee90d1bda814dda005/sqlite-2.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e18a499e1486edd671d48070270d052/sqlite-2.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cf6ac8b2b54a321341e656419cabc43e/transformed/sqlite-2.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cf6ac8b2b54a321341e656419cabc43e/transformed/sqlite-2.0.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/cf6ac8b2b54a321341e656419cabc43e/transformed/sqlite-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../MusicPlayer/.gradle/caches/transforms-3/cf6ac8b2b54a321341e656419cabc43e/transformed/sqlite-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../MusicPlayer/.gradle/caches/transforms-3/cf6ac8b2b54a321341e656419cabc43e/transformed/sqlite-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../MusicPlayer/.gradle/caches/transforms-3/cf6ac8b2b54a321341e656419cabc43e/transformed/sqlite-2.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.sqlite/sqlite/2.0.0/713cd9c55cb460866eee941d386fe01d348b78f3/sqlite-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MusicPlayer/.gradle/caches/modules-2/files-2.1/androidx.sqlite/sqlite/2.0.0/713cd9c55cb460866eee941d386fe01d348b78f3/sqlite-2.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

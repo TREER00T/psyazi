@@ -5,17 +5,17 @@ public class Link {
 
     public static final String
 
-            url = "http://192.168.1.100/data/psyazi/user/",
+            url = "http://192.168.1.104/data/psyazi/user/",
 
-            url_chat = "http://192.168.1.100:8000",
+            url_chat = "http://192.168.1.104:8000",
 
-            URL_SEND_Comment = "http://192.168.1.100/data/psyazi/user/get_comment.php",
+            URL_SEND_Comment = "http://192.168.1.104/data/psyazi/user/get_comment.php",
 
-            URL_GET_Comment = "http://192.168.1.100/data/psyazi/user/comment.php?id_item=",
+            URL_GET_Comment = "http://192.168.1.104/data/psyazi/user/comment.php?id_item=",
 
-            URL_GET_Search = "http://192.168.1.100/data/psyazi/user/getDataPost.php?title=",
+            URL_GET_Search = "http://192.168.1.104/data/psyazi/user/getDataPost.php?title=",
 
-             profile_img = "http://192.168.1.100/data/psyazi/user/img_upload_to_server.php?username=";
+             profile_img = "http://192.168.1.104/data/psyazi/user/img_upload_to_server.php?username=";
 
 
     public static final String

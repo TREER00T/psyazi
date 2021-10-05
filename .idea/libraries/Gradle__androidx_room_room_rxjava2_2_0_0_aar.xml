@@ -3,13 +3,14 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6ba0e8bed75f3408bc6756c307e313fd/room-rxjava2-2.0.0/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68b60d9e775dbc91cdf0f1790cc6a65b/room-rxjava2-2.0.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6bb2907db32e10d08a2502b755c0f8a0/transformed/room-rxjava2-2.0.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6bb2907db32e10d08a2502b755c0f8a0/transformed/room-rxjava2-2.0.0/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6bb2907db32e10d08a2502b755c0f8a0/transformed/room-rxjava2-2.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../MusicPlayer/.gradle/caches/transforms-3/6bb2907db32e10d08a2502b755c0f8a0/transformed/room-rxjava2-2.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../MusicPlayer/.gradle/caches/transforms-3/6bb2907db32e10d08a2502b755c0f8a0/transformed/room-rxjava2-2.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../MusicPlayer/.gradle/caches/transforms-3/6bb2907db32e10d08a2502b755c0f8a0/transformed/room-rxjava2-2.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.room/room-rxjava2/2.0.0/d6d8856ec06ff6e2f7fd7847193f691311a4db77/room-rxjava2-2.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../MusicPlayer/.gradle/caches/modules-2/files-2.1/androidx.room/room-rxjava2/2.0.0/d6d8856ec06ff6e2f7fd7847193f691311a4db77/room-rxjava2-2.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
