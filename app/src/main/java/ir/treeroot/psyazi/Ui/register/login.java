@@ -1,4 +1,4 @@
-package ir.treeroot.psyazi.register;
+package ir.treeroot.psyazi.Ui.register;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,7 +23,7 @@ import java.util.Objects;
 import ir.treeroot.psyazi.Utils.APIClient;
 import ir.treeroot.psyazi.Interface.Api;
 import ir.treeroot.psyazi.Utils.Link;
-import ir.treeroot.psyazi.MainActivity;
+import ir.treeroot.psyazi.Ui.MainActivity;
 import ir.treeroot.psyazi.R;
 import ir.treeroot.psyazi.model.Users;
 import retrofit2.Call;

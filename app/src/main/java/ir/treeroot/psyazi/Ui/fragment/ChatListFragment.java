@@ -1,14 +1,12 @@
-package ir.treeroot.psyazi.fragment;
+package ir.treeroot.psyazi.Ui.fragment;
 
 import static ir.treeroot.psyazi.Utils.Link.url_chat;
 
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
 import android.os.Handler;
 import android.view.LayoutInflater;
@@ -16,7 +14,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 
 import com.squareup.picasso.MemoryPolicy;
@@ -39,9 +36,7 @@ import ir.treeroot.psyazi.R;
 import ir.treeroot.psyazi.Ui.Chats.ChatActivity;
 import ir.treeroot.psyazi.Utils.APIClient;
 import ir.treeroot.psyazi.Utils.Link;
-import ir.treeroot.psyazi.adapter.ChatBoxAdapter;
 import ir.treeroot.psyazi.model.AddPost;
-import ir.treeroot.psyazi.model.Message;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

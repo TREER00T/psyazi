@@ -8,7 +8,7 @@
     android:layoutDirection="ltr"
     android:orientation="vertical"
     android:screenOrientation="portrait"
-    tools:context=".MainActivity"
+    tools:context=".Ui.MainActivity"
     tools:targetApi="jelly_bean_mr1">
 
     <TextView

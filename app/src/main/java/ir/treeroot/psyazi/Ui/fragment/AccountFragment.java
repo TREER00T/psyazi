@@ -1,4 +1,4 @@
-package ir.treeroot.psyazi.fragment;
+package ir.treeroot.psyazi.Ui.fragment;
 
 import android.Manifest;
 import android.app.Activity;
@@ -10,8 +10,6 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 
-import androidx.activity.result.ActivityResult;
-import androidx.activity.result.ActivityResultLauncher;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;

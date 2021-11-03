@@ -1,4 +1,4 @@
-package ir.treeroot.psyazi.register;
+package ir.treeroot.psyazi.Ui.register;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,7 +12,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.widget.Toast;
 
 import com.google.android.material.textfield.TextInputEditText;
 import com.muddzdev.styleabletoast.StyleableToast;
@@ -21,7 +20,7 @@ import com.muddzdev.styleabletoast.StyleableToast;
 import java.util.Objects;
 
 import ir.treeroot.psyazi.Interface.Api;
-import ir.treeroot.psyazi.MainActivity;
+import ir.treeroot.psyazi.Ui.MainActivity;
 import ir.treeroot.psyazi.R;
 import ir.treeroot.psyazi.Utils.APIClient;
 import ir.treeroot.psyazi.Utils.Link;

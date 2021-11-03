@@ -1,4 +1,4 @@
-package ir.treeroot.psyazi;
+package ir.treeroot.psyazi.Ui;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -7,7 +7,6 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -22,9 +21,10 @@ import java.util.List;
 
 import io.socket.client.IO;
 import io.socket.client.Socket;
-import ir.treeroot.psyazi.fragment.AccountFragment;
-import ir.treeroot.psyazi.fragment.PostFragment;
-import ir.treeroot.psyazi.fragment.ChatListFragment;
+import ir.treeroot.psyazi.R;
+import ir.treeroot.psyazi.Ui.fragment.AccountFragment;
+import ir.treeroot.psyazi.Ui.fragment.PostFragment;
+import ir.treeroot.psyazi.Ui.fragment.ChatListFragment;
 
 import static ir.treeroot.psyazi.Utils.Link.MyPref;
 import static ir.treeroot.psyazi.Utils.Link.url_chat;

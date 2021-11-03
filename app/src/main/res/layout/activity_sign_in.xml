@@ -7,7 +7,7 @@
     android:background="@drawable/shape_background_login"
     android:layoutDirection="ltr"
     android:orientation="vertical"
-    tools:context=".register.signIn"
+    tools:context=".Ui.register.signIn"
     tools:targetApi="jelly_bean_mr1">
 
     <TextView

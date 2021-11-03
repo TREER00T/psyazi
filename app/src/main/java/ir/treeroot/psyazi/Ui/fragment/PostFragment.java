@@ -1,4 +1,4 @@
-package ir.treeroot.psyazi.fragment;
+package ir.treeroot.psyazi.Ui.fragment;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -19,7 +19,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
 import com.android.volley.Request;
