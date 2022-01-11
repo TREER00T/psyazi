@@ -156,7 +156,7 @@ public class signIn extends AppCompatActivity {
 
                 new StyleableToast
                         .Builder(getApplicationContext())
-                        .text("خطا در اتصال سرور")
+                        .text(     t.getMessage()+ "                            خطا در اتصال سرور                       ")
                         .textColor(Color.WHITE)
                         .backgroundColor(Color.parseColor("#FFFA3C3C"))
                         .font(R.font.isans)
